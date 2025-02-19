@@ -6,10 +6,27 @@ Tool that automates the acquisition of wildfire occurrence data and preps it for
 
 ### How does it work?
 
-The tool provides users with the ability to acquire data from the [InFORM Fire Occurrence Data Records (FODR)](https://data-nifc.opendata.arcgis.com/datasets/nifc::inform-fire-occurrence-data-records/about) dataset and the [Fire Program Analysis Fire-Occurrence Database (FOD)](https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6). Once acquired, the tool will merge these datasets into a consistent FODR-based schema, and intersect the points with a user provided Fire Danger Rating Area (FDRA) boundary dataset.
+Users have the option of acquiring data from the [InFORM Fire Occurrence Data Records (FODR)](https://data-nifc.opendata.arcgis.com/datasets/nifc::inform-fire-occurrence-data-records/about) dataset and the [Fire Program Analysis Fire-Occurrence Database (FOD)](https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6). Once acquired, the tool will merge these products into a single dataset with a consistent FODR-based schema. The merged points will then be intersected with a user provided Fire Danger Rating Area (FDRA) boundary dataset.
 
 FODR data is selected using the user's provided date range, along with this query: "IncidenTypeCategory = 'WF' AND IncidentSize IS NOT NULL AND FireCauseID IS NOT NULL"
 
+
+### User inputs
+1. Toggle to process FODR data
+2. Option to "Download" FODR data or to "Specify Feature Class Path" of already downloaded data
+3. Specify start date of FODR data range
+4. Specify end date of FODR data range
+5. Toggle to process FOD data
+6. Option to "Download" FOD data or to "Specify Feature Class Path" of already downloaded data
+7. Specify start date of FOD data range
+8. Specify end date of FOD data range
+9. Specify path to FDRA boundary feature class
+10. Specify FDRA feature class field containing FDRA names
+11. Specify Timezone of FDRAs
+12. Specify Output Directory
+13. Toggle to export a single output CSV or one CSV for each FDRA
+14. Toggle to add user specified start/end dates to output filenames
+   
 ![screenshot_FDRAFODRFOD_1.png](https://github.com/mpanunto/FDRA_FODR_FOD/blob/main/screenshot_FDRAFODRFOD_1.png)
 
 
