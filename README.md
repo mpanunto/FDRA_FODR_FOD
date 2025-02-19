@@ -12,6 +12,9 @@ Users have the option of acquiring data from the [InFORM Fire Occurrence Data Re
 \
 FODR data is selected using the specified start/end dates of interest, along with this query:
 - IncidentTypeCategory = 'WF' AND IncidentSize IS NOT NULL AND FireCauseID IS NOT NULL
+\
+\
+\
 
 ### User inputs
 1. Toggle to process FODR data
