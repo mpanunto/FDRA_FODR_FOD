@@ -12,6 +12,7 @@ Users have the option of acquiring data from the [InFORM Fire Occurrence Data Re
 FODR data is selected using the user's provided date range, along with this query: "IncidenTypeCategory = 'WF' AND IncidentSize IS NOT NULL AND FireCauseID IS NOT NULL"
 \
 \
+
 ### User inputs
 1. Toggle to process FODR data
 2. Option to "Download" FODR data or to "Specify Feature Class Path" of already downloaded data
