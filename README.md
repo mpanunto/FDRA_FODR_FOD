@@ -10,6 +10,9 @@ The tool provides users with the ability to acquire data from the [InFORM Fire O
 
 FODR data is selected using the user's provided date range, along with this query: "IncidenTypeCategory = 'WF' AND IncidentSize IS NOT NULL AND FireCauseID IS NOT NULL"
 
+![screenshot_FDRAFODRFOD_1.png](https://raw.githubusercontent.com/mpanunto/FDRA_FODR_FOD/main/docs/screenshot_FDRAFODRFOD_1.png)
+
+
 
 ## Usage
 
