@@ -7,9 +7,9 @@ Tool that automates the acquisition of wildfire occurrence data and preps it for
 ### How does it work?
 
 Users have the option of acquiring data from the [InFORM Fire Occurrence Data Records (FODR)](https://data-nifc.opendata.arcgis.com/datasets/nifc::inform-fire-occurrence-data-records/about) dataset and the [Fire Program Analysis Fire-Occurrence Database (FOD)](https://www.fs.usda.gov/rds/archive/catalog/RDS-2013-0009.6). Once acquired, the tool will merge these products into a single dataset with a consistent FODR-based schema. The merged points will then be intersected with a user provided Fire Danger Rating Area (FDRA) boundary dataset.
-
+\
 FODR data is selected using the user's provided date range, along with this query: "IncidenTypeCategory = 'WF' AND IncidentSize IS NOT NULL AND FireCauseID IS NOT NULL"
-
+\
 
 ### User inputs
 1. Toggle to process FODR data
